@@ -15,11 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Z10.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
+    <Text Include="output.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="output.txt" />
+    <ClCompile Include="Reshenie.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

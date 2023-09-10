@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{15285dfd-5a7f-45b2-bcd3-2a2b0c828341}</ProjectGuid>
-    <RootNamespace>Zadachi</RootNamespace>
+    <ProjectGuid>{cad12599-cead-49de-8c0e-b390fb8aa3aa}</ProjectGuid>
+    <RootNamespace>Searchalgorithms</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Z10.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="output.txt" />
+    <ClCompile Include="binary search.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
