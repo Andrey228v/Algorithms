@@ -88,9 +88,9 @@ int checking_the_intersection(Line L1, Line L2) {
 
 	}
 
-	if () {
+	//if () {
 
-	}
+	//}
 
 
 	
