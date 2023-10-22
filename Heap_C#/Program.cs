@@ -9,12 +9,18 @@ namespace Heap_C_
         {
 
             List<int> L1_int= new List<int>(1) { 2, 5, 7, 8, 6, 10, 42, 11, 15, 28, 9, 13 };
-            Heap<int> H1 = new Heap<int>(L1_int);
+            //HeapT<int> H1 = new HeapT<int>(L1_int);
+            Heap H1 = new Heap(L1_int);
             H1.Print_massive();
+            H1.Insert(3);
+            H1.Print_massive();
+            H1.Insert(1);
+            H1.Print_massive();
+            H1.Remove_min();
             H1.Print_massive();
 
 
-
+    
 
             //Heap<int> H1 = new Heap<int>();
 
